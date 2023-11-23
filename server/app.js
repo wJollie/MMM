@@ -8,10 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 // MongoDB connection
 mongoose
-  .connect(
-    "mongodb://localhost:27017/mydatabase" || process.env.MONGODB_URI,
-    {}
-  )
+  .connect("mongodb://127.0.0.1:27017/MMM" || process.env.MONGODB_URI, {})
   .then(() => {
     console.log("Connected to MongoDB");
   })
