@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node server/app.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
