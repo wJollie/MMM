@@ -1,6 +1,4 @@
-import React from 'react'
-import Signup from './pages/Signup.jsx';
-import Login from './pages/Login.jsx';
+import React from 'react';
 import Home from './pages/Home.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
@@ -16,20 +14,6 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />
         },
-        {
-          path: "/signup",
-          element: <Signup />
-        },
-        {
-          path: "/login",
-          element: <Login />
-        },
-        
-        
-        
-        
-        
-
      ]
   },
 ]);
